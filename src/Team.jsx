@@ -11,12 +11,12 @@ export default function Team() {
     const removeMember = () => {
         setCount(count-1)
     }
-
+    
     const styles = {
-        border: '2px solid purple',
+        border: '2px solid red',
         margin: '45px',
         borderRadius: '12px',
-        padding: '20px'
+        padding: '6px'
 
     }
     return(

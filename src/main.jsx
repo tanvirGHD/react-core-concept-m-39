@@ -5,6 +5,7 @@ import Team from './Team.jsx'
 import App from './App.jsx'
 import './index.css'
 import Users from './Users.jsx'
+import Posts from './Posts.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')).render(
     <Counter></Counter>
     <Team></Team>
     <Users></Users>
+    <Posts></Posts>
   </StrictMode>,
   
 )
